@@ -1,0 +1,11 @@
+{
+  "name": "passport-pocket2",
+  "version": "0.1.0",
+  "description": "passport pocket2",
+  "main": "passport-pocket2.js",
+  "private": true,
+  "dependencies": {
+    "passport": "0.1.15",
+    "request": "2.12.0"
+  }
+}
