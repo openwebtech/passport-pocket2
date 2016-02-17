@@ -17,7 +17,7 @@ describe('pocket api test', function() {
       const url = 'https://github.com/openwebtech/passport-pocket2';
       return this.api.add({
         url: url,
-        tags: 'javascript, node.js, passport'
+        tags: ['javascript', 'node.js', 'passport']
       })
       .then(data => {
         console.log('data', data);
