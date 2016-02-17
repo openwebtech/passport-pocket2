@@ -1,11 +1,22 @@
 {
   "name": "passport-pocket2",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "passport pocket2",
-  "main": "passport-pocket2.js",
-  "private": true,
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/openwebtech/passport-pocket2.git"
+  },
   "dependencies": {
-    "passport": "0.1.15",
-    "request": "2.12.0"
+    "passport-strategy": "^1.0.0",
+    "request": "^2.69.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
   }
 }
