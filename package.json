@@ -1,6 +1,6 @@
 {
   "name": "passport-pocket2",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "passport pocket2",
   "main": "lib/index.js",
   "license": "MIT",
