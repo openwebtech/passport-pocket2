@@ -17,7 +17,7 @@ describe('pocket api test', function() {
       const url = 'https://github.com/openwebtech/passport-pocket2';
       return this.api.add({
         url: url,
-        tags: ['javascript', 'node.js', 'passport']
+        tags: ['javascript', 'node.js', 'passport-pocket2']
       })
       .then(data => {
         console.log('data', data);
@@ -35,10 +35,10 @@ describe('pocket api test', function() {
       });
     });
 
-    it('should get archive items', function() {
+    xit('should get archive items', function() {
       return this.api.get({
         state: 'archive',
-        tag: 'javascript'
+        tag: 'passport-pocket2'
       })
       .then(data => {
         // console.log(data);
